@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Fuzzy+Bubbles:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="icon"  href="android-chrome-192x192.png">
+
+    <link rel="stylesheet" href="index.css">
+    <title>Registeration Form</title>
+</head>
+<body>
+    <div id="form">
+        <h1>Register here⬇</h1>
+        <form name="input">
+            <div class="items">
+                <label for="firstname">Name</label>
+                <input class="filed" id="firstname" type="text" placeholder="firstname" name="name" value="" required><br>              
+            </div>
+            <div class="items">
+                <label for="male">Gender</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">male</label>
+                <input type="radio" id="female" name="gender" value="femal">
+                <label for="female">female</label><br>
+            </div>
+            
+            <div class="items">
+                <label for="age">Age</label>
+                <input class="filed" id="age" type="number" placeholder="age" name="age" value=""><br>    
+            </div>
+            <div class="items">
+                <label for="number">Number</label>
+                <input class="filed" id="numbber" type="tel" placeholder="phone number" name="number" value="" pattern="[0-9]{10}" required><br>
+            </div>
+            <div class="items">
+                <label for="email">Email</label>
+                <input class="filed" id="email" type="email" placeholder="email" name="email" value="" required ><br>    
+            </div>
+            <div id="submit">
+                <button id="sbtn" type="submit">Submit</button>
+            </div>
+            <div id="sub-conf">
+
+            </div>
+     
+            
+        </form>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    background-image: url("bgpic.jpg");
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-weight: 700;
+
+
+}
+
+#form{
+    background-color:rgb(54, 176, 207);
+    text-align: center;
+    width: 500px;
+    margin: 0;
+    margin-top: 9%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:25px ;
+    
+}
+.items {
+    margin-top: 20px;
+    text-align:left;
+}
+label{
+    margin-right: 20px;
+}
+
+.filed{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #eee;
+    margin-top:10px ;
+    background-color: rgb(54, 176, 207);
+
+    font-size: 20px;
+    width: 100%;
+    
+}
+input {
+    outline: none;
+}
+input::placeholder{
+    color: #eee;
+}
+.filed:focus {
+    border: none;
+    background-color: rgb(54, 176, 207);
+  
+   
+    
+    
+}
+#submit {
+    margin-top: 20px;
+}
+#sbtn{
+    background-color: white;
+    border: 0;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 15px;
+}
